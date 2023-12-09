@@ -1,0 +1,39 @@
+
+/* Style pour les bonnes réponses */
+.question-item.correct {
+    color: green;
+} 
+
+  
+  /* Style pour les mauvaisees réponses */
+  .question-item.incorrect{
+    color: red;
+
+  }
+ 
+  
+  #alert {
+    /*Je le place en z-index 2 pour qu'il apparaisse au-dessus des questions/réponses */
+    z-index: 2;
+    display: none;
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid #29e316;
+    background-color: #9dfe93;
+    /*margin-top: 1px;*/
+    position: fixed;
+    top: 270px;
+    left: 350px;
+   
+  }
+  h1 {
+    font-size: 15px;
+    color:darkslategray;
+  }
+  p{
+    color:darkgreen;
+    padding: 2px;
+    font-size: 10px;
+    text-align: center;
+  }
